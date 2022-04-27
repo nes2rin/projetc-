@@ -1,0 +1,27 @@
+ALGORITHM comparator
+VAR
+    tab1 : ARRAY_OF INTEGER[50]
+     tab2 : ARRAY_OF INTEGER[50] 
+     i,b,a:= INTEGER
+    n:= tab1.length-1
+    m:=tab2.length-1
+BEGIN
+       a = 0
+       b=0
+    FOR i FROM 0 TO n STEP 1  DO
+    FOR j FROM 0 TO m STEP 1  DO
+        IF (tab1[i]=tab2[j]) THEN
+            a=a+tab1[i]*2 
+            else 
+            b= b+tab1[i]
+        END_IF
+    END_FOR
+    END_FOR
+    FOR j FROM 0 TO m STEP 1  DO
+        FOR i FROM 0 TO n STEP 1  DO
+            b= b+tab2[j]
+        END_FOR
+    END_FOR
+            write('Sum of overlapping elements',a)
+            write('Sum of different elements',b)
+END

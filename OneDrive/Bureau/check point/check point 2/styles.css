@@ -1,0 +1,71 @@
+
+body{
+    margin: 0;
+}
+
+header{background-color:#da1b5e;
+    /* height: 230px; */
+    width: 100%;
+    /* position: fixed; */
+   margin-top: 0; 
+}
+label.logo{color: white;
+    font-size:50px;
+   position: absolute; top:100px ;
+padding-left: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+div{padding-left: 50%;
+}
+main {
+    margin: 0;
+}
+nav ul li{display: inline;
+    border: 4px white double ;
+    padding: 10px;
+/* padding: bottom 30px; */
+
+
+}
+
+ul{
+    margin-top: 0%;
+    position: relative;
+}
+a {color: white; text-decoration:none;
+}
+nav{background-color:#da1b5e;
+height: 50px;
+margin-top: 0;
+}
+a{
+margin-left: 50px ;
+/* margin-top: 100px; */
+margin-right: 50px ;
+/* border-style: solid; */
+position: relative; 
+/* top: 15px; */
+}
+.titre{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: #da1b5e;
+font-size: 20px;
+position: absolute;
+margin: 15px;
+padding: 15px;
+
+}
+
+p {
+    margin: 20px;
+}
+
+#info {
+    margin-top: 70px;
+}
+#fb { position: relative;
+    margin-right: 40px;
+font-size: 20px;
+color: blue;
+
+}

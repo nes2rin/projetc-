@@ -7,7 +7,7 @@ function App() {
     <div className="App">
         <Esem/>
         <Adress/>
-        <Taswira/>
+        <Taswira/>s
     </div>
   );
 }

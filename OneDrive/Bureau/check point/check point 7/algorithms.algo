@@ -1,0 +1,24 @@
+ALGORITHM read_sentence
+VAR
+    phrase:=string 
+    a:=INTEGER
+    b:=INTEGER
+    c :=INTEGER
+BEGIN
+FOR i FROM 0 TO length.phrase STEP 1  DO
+VAR
+    a:=1
+    b:=0
+    c:=0
+IF (phrase[i]=' ' ) THEN
+    a=a+1
+END_FOR
+IF (phrase[i]=['a','e', 'i','o','u','y','A','E','I','O','U','Y']) THEN
+    c=c+1
+END_IF
+   b=length.phrase-a
+END_FOR
+  writh(' the number of characters',b) 
+    writh('The number of words ',a) 
+    writh('  The number of vowels',c ) 
+END
