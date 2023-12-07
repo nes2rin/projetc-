@@ -24,27 +24,54 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    arduino.cpp \
+    chart.cpp \
+    connect.cpp \
     connection.cpp \
     employe.cpp \
     employemodel.cpp \
     login.cpp \
     main.cpp \
     mainwindow.cpp \
+    mainwindow2.cpp \
+    materiel.cpp \
+    pdf.cpp \
+    plante.cpp \
+    qcustomplot.cpp \
+    qrcode.cpp \
     rh.cpp \
-    smtp.cpp
+    search.cpp \
+    sms.cpp \
+    smtp.cpp \
+    smtpp.cpp \
+    vente.cpp
 
 HEADERS += \
+    arduino.h \
+    chart.h \
+    connect.h \
     connection.h \
     employe.h \
     employemodel.h \
     login.h \
     mainwindow.h \
+    mainwindow2.h \
+    materiel.h \
+    pdf.h \
+    plante.h \
+    qcustomplot.h \
+    qrcode.h \
     rh.h \
-    smtp.h
+    search.h \
+    sms.h \
+    smtp.h \
+    smtpp.h \
+    vente.h
 
 FORMS += \
     login.ui \
     mainwindow.ui \
+    mainwindow2.ui \
     rh.ui
 
 # Default rules for deployment.
@@ -55,3 +82,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 DISTFILES += \
     ../../Desktop/projetc++/libeay32.dll \
     ../../Desktop/projetc++/ssleay32.dll
+
+RESOURCES += \
+    Resources.qrc

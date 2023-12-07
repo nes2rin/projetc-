@@ -106,6 +106,8 @@ public:
     QSqlQueryModel* recherche_employe(QString search);
     QSqlQueryModel* triID();
     int statistiquesemploye(QString occ);
+    bool incrementNbEmp();
+
 
 
 };

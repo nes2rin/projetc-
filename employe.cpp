@@ -115,3 +115,15 @@ QSqlQueryModel * employe::triID()
     return model;
 
 }
+//pour increment nb eh
+bool employe::incrementNbEmp() {
+    QSqlQuery query;
+    query.prepare("UPDATE NB_EMPLOYE SET NBEMP = NBEMP + 1");
+
+    if (!query.exec()) {
+        qDebug() << "Failed to increment NBEMP in database";
+        return false;
+    }
+
+    return true;
+}
