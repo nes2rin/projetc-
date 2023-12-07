@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color:#CFFCFF;</string>
+    <string notr="true">background-color:#f4f2e2;</string>
    </property>
    <property name="currentIndex">
     <number>0</number>
@@ -36,9 +36,9 @@
      <property name="geometry">
       <rect>
        <x>80</x>
-       <y>120</y>
+       <y>60</y>
        <width>621</width>
-       <height>281</height>
+       <height>421</height>
       </rect>
      </property>
      <property name="font">
@@ -79,9 +79,9 @@ border:none;</string>
       <property name="geometry">
        <rect>
         <x>150</x>
-        <y>120</y>
+        <y>150</y>
         <width>311</width>
-        <height>22</height>
+        <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -93,9 +93,9 @@ border:1px solid #6568F3;</string>
       <property name="geometry">
        <rect>
         <x>150</x>
-        <y>160</y>
+        <y>230</y>
         <width>311</width>
-        <height>22</height>
+        <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -106,7 +106,7 @@ border:1px solid #6568F3;</string>
      <widget class="QLabel" name="label_21">
       <property name="geometry">
        <rect>
-        <x>20</x>
+        <x>150</x>
         <y>120</y>
         <width>101</width>
         <height>21</height>
@@ -126,8 +126,8 @@ border:1px solid #6568F3;</string>
      <widget class="QLabel" name="label_22">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>160</y>
+        <x>150</x>
+        <y>190</y>
         <width>111</width>
         <height>21</height>
        </rect>
@@ -140,28 +140,28 @@ border:1px solid #6568F3;</string>
        </font>
       </property>
       <property name="text">
-       <string>Mot de passe</string>
+       <string>Mot de passe :</string>
       </property>
      </widget>
      <widget class="QPushButton" name="log">
       <property name="geometry">
        <rect>
         <x>250</x>
-        <y>220</y>
+        <y>300</y>
         <width>93</width>
         <height>28</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">#ajouter_2{
-color:white;
-background-color:#6568F3;
-border-radius:10px;
+       <string notr="true">QPushButton{
+border-radius: 10px;
+border: 1px solid #6568F3;
+background: transparent;
+color: #FF7244;
 }
-#ajouter_2:hover{
-color:white;
-background-color:#FF7244;
-border-radius:10px;
+QPushButton:hover{
+background: #FF7244;
+color: #6568F3;
 }</string>
       </property>
       <property name="text">
